@@ -297,6 +297,39 @@ textarea {
 	transition: .3s ease;
 }
 
+.about__container {
+	width: 80%;
+	margin: 0 auto 50px;
+	text-align: center;
+}
+
+.about__container img {
+	width: 100%;
+	height: auto;
+}
+
+.about__container h1,
+.about__container p {
+	padding-top: 30px;
+}
+
+.services {
+	width: 80%;
+	margin: 0 auto 50px;
+	text-align: center;
+}
+
+.services img {
+	max-width: 100%;
+}
+
+.services__container {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 50px 100px;
+	margin-top: 50px;
+}
+
 /*-------------------------------------------------MEDIA-----------------------------------------*/
 
 @media screen and (max-width: 768px) {
@@ -348,7 +381,6 @@ textarea {
 	.blog-container {
 		width: 28rem;
 	}
-
 }
 
 @media screen and (max-width: 420px) {
@@ -378,5 +410,9 @@ textarea {
 
 	.blog-container {
 		width: 20rem;
+	}
+
+	.services__container {
+		grid-template-columns: auto;
 	}
 }
